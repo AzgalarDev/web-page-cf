@@ -4,10 +4,56 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio</title>
   </head>
   <body>
+    <header class="hero">
+      <nav class="nav">
+        <div class="nav__container container">
+          <a href="#" class="nav__logo">EMV</a>         
+  
+          <ul class="nav__navbar">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Proyects</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>           
+          </ul>
+  
+          <div class="nav__hamburger">
+            <span class="nav__bar"></span>
+            <span class="nav__bar"></span>
+            <span class="nav__bar"></span>
+          </div>
+        </div>
+      </nav>
+  
+      <section class="hero__main container">
+        <div class="hero__texts">
+          <p class="hero__paragraph">Create, build and improve.</p>
+          <h1 class="title">Creating web pages with a touch of art.</h1>
+          <a href="#" class="cta">Contact</a>
+        </div>
+      </section>
+      <section class="hero__main-two container">
+        <div class="hero__keyboard">
+            <ul class="hero__row row-one">
+              <li class="pinky">s</li>
+              <li class="ring">e</li>
+              <li class="middle">r</li>
+              <li class="pointer1st">g</li>
+              <li class="pointer2nd">i</li>
+              <li class="pinky">o</li>
+            </ul>
+            <ul class="hero__row row-two">
+              <li class="ring">l</li>
+              <li class="middle">a</li>
+              <li class="pointer1st">r</li>
+              <li class="pointer2nd">a</li>
+            </ul>      
+        </div>
+      </section>
+    </header>
     <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
